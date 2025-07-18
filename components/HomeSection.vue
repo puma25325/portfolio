@@ -61,7 +61,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted, computed } from 'vue';
 
-const fullName = "Anthony Lee";
+const fullName = "Anthony";
 const typedText = ref('');
 const typingComplete = ref(false);
 let typingTimer = null;
