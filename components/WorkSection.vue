@@ -24,22 +24,16 @@
   </template>
   
   <script setup>
-  import image1 from '@/assets/Image/Desktop - 1.png'
-  import image2 from '@/assets/Image/Desktop - 2.png'
-  import image3 from '@/assets/Image/Desktop - 11.png'
-  import image4 from '@/assets/Image/Desktop - 14.png'
-  import image5 from '@/assets/Image/SupportUsPage.png'
-  import image6 from '@/assets/Image/Desktop - 111.png'
-  import image7 from "@/assets/Image/Desk - saint.png"
+  import image1 from '@/assets/Image/project1.png'
+  import image2 from '@/assets/Image/project2.png'
+  import image3 from '@/assets/Image/project3.png'
+  import image4 from '@/assets/Image/project4.png'
 
 
   const works = [
-    { image: image1, animation: 'fade-right', delay: '200', link: 'https://www.behance.net/gallery/220607569/JSPARKS-branding' },
-    { image: image2, animation: 'fade-up', delay: '200', link: 'https://www.behance.net/gallery/220607569/JSPARKS-branding' },
-    { image: image3, animation: 'fade-left', delay: '200', link: 'https://www.behance.net/gallery/217027223/Lanraj-Product-Design' },
-    { image: image4, animation: 'fade-right', delay: '400', link: 'https://www.behance.net/gallery/217018213/Car-Flyer-Design-with-Figma' },
-    { image: image5, animation: 'fade-up', delay: '400', link: 'https://www.behance.net/gallery/221056145/SupportPage-Design-and-Dev' },
-    { image: image6, animation: 'fade-left', delay: '400', link: 'https://www.behance.net/gallery/217018213/Car-Flyer-Design-with-Figma' },
-    { image: image7, animation: 'fade-right', delay: '400', link: 'https://www.behance.net/gallery/222712327/Design-and-Deveopment-of-an-HR-website' }
+    { image: image1, animation: 'fade-right', delay: '200', link: 'https://otoparcasan.com/' },
+    { image: image2, animation: 'fade-up', delay: '200', link: 'https://www.otosesli.com/' },
+    { image: image3, animation: 'fade-left', delay: '200', link: 'https://www.ocallaghancollection.com/' },
+    { image: image4, animation: 'fade-bottom', delay: '300', link: 'https://www.electricireland.ie/' }
   ];
   </script>

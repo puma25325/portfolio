@@ -18,12 +18,32 @@
           </h3>
         </transition-group>
       </div>
-      
-      <NuxtLink to="#work" 
-         class="inline-block mt-8 sm:mt-10 px-6 sm:px-8 py-3 sm:py-4 bg-primary text-white uppercase text-base sm:text-lg font-semibold tracking-wider rounded-2xl transition-colors duration-500 hover:bg-blue-600" 
-         data-aos="zoom-out" data-aos-delay="1000">
-        See My Works
-      </NuxtLink>
+	  <div class="flex">
+		<div class="p-1">
+			<NuxtLink to="#work" 
+				class="inline-block mt-8 sm:mt-10 px-6 sm:px-8 py-3 sm:py-4 bg-primary text-white uppercase text-base sm:text-lg font-semibold tracking-wider rounded-2xl transition-colors duration-500 hover:bg-blue-600" 
+				data-aos="zoom-out" data-aos-delay="1000">
+				See My Works
+			</NuxtLink>
+
+		</div>
+		<div class="p-1">
+			<NuxtLink to="#skills" 
+				class="inline-block mt-8 sm:mt-10 px-6 sm:px-8 py-3 sm:py-4 bg-primary text-white uppercase text-base sm:text-lg font-semibold tracking-wider rounded-2xl transition-colors duration-500 hover:bg-blue-600" 
+				data-aos="zoom-out" data-aos-delay="1000">
+				See My Skills
+			</NuxtLink>
+
+		</div>
+		<div class="p-1">
+			<NuxtLink to="#services" 
+				class="inline-block mt-8 sm:mt-10 px-6 sm:px-8 py-3 sm:py-4 bg-primary text-white uppercase text-base sm:text-lg font-semibold tracking-wider rounded-2xl transition-colors duration-500 hover:bg-blue-600" 
+				data-aos="zoom-out" data-aos-delay="1000">
+				See My Services
+			</NuxtLink>
+
+		</div>
+	  </div>
       
       <div class="mt-10 sm:mt-14 flex justify-center" data-aos="fade-in" data-aos-delay="1200">
         <a v-for="(icon, index) in socialIcons" :key="index" 
@@ -41,20 +61,18 @@
 <script setup>
 import { ref, onMounted, onUnmounted, computed } from 'vue';
 
-const fullName = "Chukwuebuka Akpuofoba";
+const fullName = "Anthony Lee";
 const typedText = ref('');
 const typingComplete = ref(false);
 let typingTimer = null;
 
 const animatedTexts = [
   'Web Developer',
-  'UI/UX Designer',
-  'Graphic Designer',
+  'UI/UX Designer'
 ];
 
 const socialIcons = [
-  { class: 'fab fa-behance', link: 'https://www.behance.net/ebukaakpuofoba'},
-  { class: 'fab fa-github', link: 'https://github.com/ebuchizzy?tab=repositories' }
+  { class: 'fab fa-github', link: 'https://github.com/puma25325' }
 ];
 
 const currentTextIndex = ref(0);

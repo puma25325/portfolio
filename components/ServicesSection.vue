@@ -40,14 +40,8 @@
       animation: 'fade-right'
     },
     {
-      title: 'Graphic Design',
-      description: 'With Adobe Creative Suite, I create high-quality designs for branding, marketing, and digital content, helping businesses stand out with compelling visuals.',
-      icon: 'fas fa-object-group',
-      animation: 'fade-up'
-    },
-    {
       title: 'Web Development',
-      description: 'I build dynamic and scalable web applications using HTML, CSS, JavaScript, Vue.js, Nuxt.js, Tailwind CSS for Front-end, Node.js, Express.js, Python, Django for Back-end and mySQL, MongoDB for Database',
+      description: 'I build dynamic and scalable web applications using HTML, CSS, JavaScript, Typescript, Vue.js, Nuxt.js, Tailwind CSS for Front-end,RUST, Node.js, Express.js, Python, Django for Back-end and mySQL, PostgreSQL, MongoDB for Database',
       icon: 'fas fa-file-code',
       animation: 'fade-left'
     }

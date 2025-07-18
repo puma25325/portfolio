@@ -62,30 +62,21 @@
 const contactInfo = [
   {
     title: 'Address',
-    details: ['Lagos, Nigeria'],
+    details: ['Jakarta, Indonesia'],
     icon: 'fas fa-map-marker-alt',
     isLink: false
   },
   {
-    title: 'Phone',
-    details: ['+2347065038527'],
+    title: 'Whatsapp',
+    details: ['+12702458125'],
     icon: 'fas fa-phone',
     isLink: false
   },
   {
     title: 'Email Address',
-    details: ['emmanuelakpuofoba@gmail.com'],
+    details: ['fassiongear@gmail.com'],
     icon: 'fas fa-envelope',
     isLink: false
-  },
-  {
-    title: 'Portfolio',
-    details: [
-      'https://www.behance.net/ebukaakpuofoba',
-      'https://github.com/ebuchizzy?tab=repositories'
-    ],
-    icon: 'fas fa-globe',
-    isLink: true
   }
 ];
 </script>

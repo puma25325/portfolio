@@ -12,11 +12,11 @@
         <div class="w-full lg:w-5/12 mb-8 sm:mb-10 lg:mb-0">
           <h2 class="text-xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center lg:text-left" data-aos="fade-right" data-aos-delay="200">My Skills and Experiences</h2>
           <p class="mb-6 sm:mb-8 text-sm sm:text-base" data-aos="flip-down" data-aos-delay="300">
-            I specialize in crafting visually appealing and highly functional digital experiences. As a UI/UX designer, I use Canva, Figma, Framer, and Spline to create sleek, user-friendly interfaces that enhance engagement and usability. My graphic design expertise, powered by Adobe Creative Suite, allows me to develop compelling visuals that strengthen brand identity and communication. Whether it's design or branding, I ensure every project is both aesthetically striking and strategically effective.
+            I specialize in crafting visually appealing and highly functional digital experiences. As a UI/UX designer, I use Canva, Figma, Framer, and Spline to create sleek, user-friendly interfaces that enhance engagement and usability. 
           </p>
 
           <p class="mb-6 sm:mb-8 text-sm sm:text-base" data-aos="flip-down" data-aos-delay="300">
-            On the development side, I build dynamic and scalable web applications using HTML, CSS, JavaScript, Python, REST APIs and Git, leveraging frameworks like Vue.js, Nuxt.js, and Tailwind CSS for modern front-end solutions. My backend expertise includes Node.js, Express.js, Django, MongoDB, and mySQL, enabling me to create seamless, high-performance applications. From concept to deployment, I provide full-stack solutions that merge creativity with functionality to bring ideas to life.
+            On the development side, I build dynamic and scalable web applications using HTML, CSS, JavaScript, Typescript, Python, REST APIs, GraphQL and Git, leveraging frameworks like React.js, Next.js, Vue.js, Nuxt.js, and Tailwind CSS for modern front-end solutions. My backend expertise includes Node.js, Express.js, Django, MongoDB, PostgreSQL and mySQL, enabling me to create seamless, high-performance applications. From concept to deployment, I provide full-stack solutions that merge creativity with functionality to bring ideas to life.
           </p>
 
           <div class="flex justify-center lg:justify-start">
@@ -46,13 +46,13 @@
   
   <script setup>
   const skills = [
+    { name: 'RUST', percentage: 90, color: '#a551e6' },
     { name: 'HTML', percentage: 95, color: '#e45126' },
     { name: 'CSS', percentage: 90, color: '#0c73b8' },
-    { name: 'Javascript', percentage: 80, color: '#e3a324' },
+    { name: 'Javascript', percentage: 95, color: '#e3a324' },
+    { name: 'Typescript', percentage: 95, color: '#e32324' },
     { name: 'Python', percentage: 85, color: '#e45126' },
-    { name: 'Vue.js', percentage: 85, color: '#0c73b8' },
-    { name: 'Tailwind CSS', percentage: 90, color: '#e3a324' },
-    { name: 'Express.js', percentage: 65, color: '#e45126' },
-    { name: 'Django', percentage: 70, color: '#0c73b8' },
+    { name: 'C++', percentage: 85, color: '#0c73b8' },
+    { name: 'C#', percentage: 90, color: '#e3a394' }
   ];
   </script>

@@ -10,18 +10,18 @@
       
       <div class="flex flex-col lg:flex-row justify-between items-center">
         <div class="w-full lg:w-5/12 mb-8 sm:mb-10 lg:mb-0" data-aos="fade-right" data-aos-delay="200">
-          <div class="relative w-full min-h-[300px] sm:min-h-[450px] rounded-lg overflow-hidden bg-gray-200">
-            <img src="/assets/Image/Picsart_25-03-06_09-11-24-539.png" alt="About Image" class="w-full h-full object-cover">
+          <div class="relative w-full min-h-[300px] sm:min-h-[300px] rounded-lg overflow-hidden bg-gray-200">
+            <img src="/assets/Image/myimage.jpg" alt="About Image" class="w-full h-full object-cover">
           </div>
         </div>
         
         <div class="w-full lg:w-1/2 px-2 sm:px-0" data-aos="fade-left" data-aos-delay="200">
-          <h2 class="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center lg:text-left">Hey There! I am Chukwuebuka Akpuofoba</h2>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center lg:text-left">Hey There! I am Anthony</h2>
           <p class="mb-4 sm:mb-6 text-sm sm:text-base" data-aos="flip-up" data-aos-delay="400">
-            Results-driven Web Developer, UI/UX Designer and Graphic Designer with 3 years of experience in creating high-performing digital solutions and driving business growth.
+            Results-driven Web Developer and UI/UX Designer with 8 years of experience in creating high-performing digital solutions and driving business growth.
           </p>
           <p class="mb-6 sm:mb-8 text-sm sm:text-base" data-aos="flip-up" data-aos-delay="400">
-           Skilled in designing user-friendly websites, creating visually compelling graphics, and developing responsive web applications. Passionate about crafting seamless digital experiences that align with brand identity and user needs. Seeking opportunities to contribute my expertise in web development, UI/UX design, and graphic design to a forward-thinking organization.
+           Skilled in designing user-friendly websites and developing responsive web applications. Passionate about crafting seamless digital experiences that align with brand identity and user needs. Seeking opportunities to contribute my expertise in web development and UI/UX design to a forward-thinking organization.
           </p>
           <div class="flex justify-center lg:justify-start">
             <NuxtLink to="#" 

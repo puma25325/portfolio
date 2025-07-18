@@ -3,7 +3,7 @@
     'fixed top-0 left-0 w-full z-50 flex justify-between items-center transition-all duration-200 py-4 px-4 sm:px-6 md:px-12 lg:px-48',
     isSticky ? 'bg-primary' : 'bg-dark'
   ]">
-    <NuxtLink to="/" class="text-white text-xl sm:text-2xl font-bold uppercase" data-aos="zoom-in">CEA</NuxtLink>
+    <NuxtLink to="/" class="text-white text-xl sm:text-2xl font-bold uppercase" data-aos="zoom-in">AL</NuxtLink>
    
     <div class="lg:hidden">
       <button @click="toggleMenu" class="w-8 sm:w-10 h-8 sm:h-10 relative focus:outline-none">
